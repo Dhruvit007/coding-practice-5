@@ -1,0 +1,10 @@
+DELETE http://localhost:3000/movies/3
+
+###
+POST http://localhost:3000/movies/
+Content-Type: application/json
+{
+    "directorId": 5,
+    "movieName": "Jurassic Park",
+    "leadActor": "Jeff Goldblum"
+}
